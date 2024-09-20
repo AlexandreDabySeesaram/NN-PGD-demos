@@ -6,7 +6,7 @@
 ###                                                                          ###
 ################################################################################
 
-FROM registry.gitlab.inria.fr/aldabyse/fenni-paper-demos:latest
+FROM registry.gitlab.inria.fr/aldabyse/NN-PGD-demos:latest
 
 ARG NB_USER=jovyan
 ARG NB_UID=1000
