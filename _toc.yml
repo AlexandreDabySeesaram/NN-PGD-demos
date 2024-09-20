@@ -4,7 +4,7 @@
 format: jb-book
 root: index
 chapters:
-# - file: demos/Notebook_Fig_8ac
+- file: demos/2D case - Figure 10
 # - file: demos/Notebook_Fig_8bd
 # - file: demos/Notebook_Fig_9
 # - file: demos/Notebook_Fig_10
