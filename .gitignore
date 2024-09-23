@@ -1,4 +1,5 @@
 .DS_Store
+demos/Geometries/Hole_3_order_1*
 *.msh
 *.vtk
 *.xml
