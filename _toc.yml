@@ -4,6 +4,7 @@
 format: jb-book
 root: index
 chapters:
+- file: demos/2D case - Interactive
 - file: demos/2D case - Figure 15
 - file: demos/2D case - Figure 10
 - file: demos/1D case - Figure 7
