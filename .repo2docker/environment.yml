@@ -39,6 +39,6 @@ dependencies:
     - gmsh
     - meshio
     - matplotlib
-
+    - "pyvista[jupyter]"
   # mechanics stuff
     - neurom-py==3.1.14
