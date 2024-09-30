@@ -54,7 +54,7 @@ A                       = 1.0
 [interpolation]
 dimension               = 1                                             # Dimension of the study (1D or 2D)
 order                   = 1                                             # Order of the shape functions
-np                      = 50                                            # Number of Nodes in the Mesh in 1D
+np                      = 10                                            # Number of Nodes in the Mesh in 1D
 MaxElemSize2D           = 1                                             # Maximum element size in the 2D mesh
 n_integr_points         = 5                                           # Number of integration points per element
 
@@ -70,10 +70,10 @@ FrozenParaMesh          = true                                          # Nodal 
 TrainingStrategy        = 'Integral'                                    # 'Integral' or 'Mixed' = weak formulation
 IntegralMethod          = 'Trapezoidal'                                # Type of integration (Gaussian_quad, Trapezoidal)
 ParametricStudy         = true                                          # Boolean to switch between plain HiDeNN and NeuROM
-BiPara                  = true                                          # Enable bi-stifness beam in 1D
+BiPara                  = false                                          # Enable bi-stifness beam in 1D
 n_modes_max             = 100                                           # Maximum number of modes in the Tensor Decomposition
 n_modes_ini             = 1                                             # Initial number of modes in the Tensor Decomposition
-N_ExtraCoordinates      = 2                                         # Number of extra parameters in the tensor decomposition 
+N_ExtraCoordinates      = 1                                         # Number of extra parameters in the tensor decomposition 
 
 
 ####################################################
@@ -103,7 +103,7 @@ LoadPreviousModel       = false                                     # Boolean to
 RemoveLastMode          = true                                      # Boolean enabling to remove the last mode that is by construction useless (to avoid increasing the ROB with multi level training)
 BoolFilterTrainingData  = true                                      # Slightly move training samples if they are on the mesh nodes exactly
 loss_decrease_c         = 1e-5                                      # Stagnation criterion for the loss decay rate (mode addition criterion)
-multi_mode_training     = false                                         # Enables training all the space modes (as opposed to only the lastly added mode)
+multi_mode_training     = true                                         # Enables training all the space modes (as opposed to only the lastly added mode)
 multiscl_max_refinment  = 1                                         # Multiscale maximum number of refinement
 h_adapt_MaxGeneration   = 3                                         # Maximum of times a given element can be splitted during h adaptivity
 h_adapt_J_thrshld       = 0.5                                       # relative jacobian delta ratio above which an element is refined
