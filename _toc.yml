@@ -7,6 +7,7 @@ chapters:
 - file: demos/2D case - Interactive
 - file: demos/2D case - Interactive pretrained
 - file: demos/2D case - Figure XX Error pretrained
+- file: demos/2D case - Figure XX Error from scratch
 - file: demos/2D case - Figure 15
 - file: demos/2D case - Figure 10
 - file: demos/1D case - Figure 7
