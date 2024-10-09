@@ -5,12 +5,12 @@ format: jb-book
 root: index
 chapters:
 - file: demos/2D case - Interactive
-- file: demos/2D case - Interactive pretrained
+# - file: demos/2D case - Interactive pretrained
 - file: demos/2D case - Figure XX Error pretrained
-- file: demos/2D case - Figure XX Error from scratch
+# - file: demos/2D case - Figure XX Error from scratch
 - file: demos/2D case - Figure XX Error and plots pyvista
 - file: demos/2D case - Figure 13
 - file: demos/2D case - Figure 8
-- file: demos/1D case - Figure 5
-- file: demos/1D case - Figure 6
 - file: demos/1D case - Figure 7
+- file: demos/1D case - Figure 6
+- file: demos/1D case - Figure 5
