@@ -16,7 +16,7 @@ channels:
 dependencies:
 # python
   - numpy
-  - python
+  - python=3.12
   - scipy
   - sympy
 
@@ -36,7 +36,6 @@ dependencies:
   - pip
   - pip:
   # computing stuff
-    - vtk
     - gmsh
     - meshio
     - matplotlib
